@@ -120,3 +120,9 @@ box-sizing: border-box;
     background-color: hotpink ;
     color: #fff;
  }
+
+@media screen and (max-width: 300px) {
+  .container header {
+    font-size: 50px;
+  }
+}
