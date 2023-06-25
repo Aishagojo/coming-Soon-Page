@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+  .conatiner{
+    display: flex;
+    height:100vh;
+    row-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+    overflow: hidden;
+  }
+  .conatiner img{
+    position: absolute;
+    height:100%;
+    width:100%;
+   object-fit: cover;
+   z-index: -1;
+  }
+
+  .conatiner  header {
+    font-size: 60px;;
+    color: hotpink;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .conatiner  p{
+    font-size: 19px;
+    font-weight: 400;
+    color: #000;
+    max-width: 550px;
+    text-align: center;
+   
+
+  }
+
+.time-content{
+    display:flex;
+    column-gap: 30px;
+    align-items: center;
+  } 
+  
+  .time-content .time{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .time .number,
+  .time .text{
+    font-weight: 800;
+ color: #000;
+  }
+.time .number{
+    font-size: 50px;
+  }
+.time .text{
+    text-transform: capitalize;
+    font-size: 12px;
+  }
+
+ .emaail-conatin{
+ display:flex;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 30px;
+ width:100%;
+ }
+ .emaail-conatin p{
+    font-size: 13px;
+ }
+ .input-text{
+   display: flex;
+   align-items: center;
+    height:40px;
+    max-width: 360px;
+    width:100%;
+    margin-top: 20px;
+    column-gap: 20px;
+ }
+ .input-text input,
+ .input-text button{
+    height:100%;
+    outline: none;
+    border: none;
+    border: 1px solid #fff;
+    border-radius: 4px;;
+    background-color: rgba(92, 10, 67, 0.2) ;
+    font-weight: 400;
+    
+
+ }
+ .input-text input{
+    width:100%;
+    padding:0 15px;
+    color: #fff;
+ }
+
+ .input-text::placeholder{
+    color: #fff;
+ }
+
+ .input-text button{
+    cursor: pointer;
+    color: #fff;
+    white-space: nowrap;
+    padding:0 20px;
+    transition: all 0.3s ease
+ }
+ .input-text button:hover{
+    background-color: hotpink ;
+    color: #fff;
+ }
